@@ -1,0 +1,32 @@
+/*GENERAL*/
+ul {
+    list-style: none;
+}
+/*ASIDE*/
+aside {
+    background-color: #647087;
+}
+aside * {
+    color: white;
+}
+aside h2{
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+aside section h2:first-child{
+border-bottom: 2px solid white;
+}
+#profile-pic img {
+    border-radius: 50%;
+}
+/*MAIN*/
+.hero {
+    background-color: #F7DDC3;
+}
+.hero h2 {
+    color: white;
+    border-top-style:2px solid white;
+}
+.hero {
+    box-shadow: 3px 3px 20px 5px #647087 inset;
+}
