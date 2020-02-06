@@ -1,38 +1,65 @@
+/*LAYOUT*/
+.main-container {
+    display: flex;
+    width: 1200px;
+}
 /*GENERAL*/
 ul {
-    list-style: none;
+  list-style: none;
 }
 /*ASIDE*/
 aside {
-    background-color: #647087;
+  background-color: #647087;
+  width: 30%;
+  margin-right: 3%;
 }
 aside * {
-    color: white;
+  color: white;
 }
-aside h2{
-text-transform: uppercase;
-letter-spacing: 5px;
+aside h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
-aside section h2:first-child{
-border-bottom: 2px solid white;
+aside section h2:first-child {
+  border-bottom: 2px solid white;
 }
 #profile-pic img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 /*MAIN*/
-main section > h2{
-    text-transform: uppercase;
-    letter-spacing: 5px;
+main section > h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 .hero {
-    background-color: #F7DDC3;
+  background-color: #f7ddc3;
+  box-shadow: 2px 2px 40px 1px #647087 inset;
 }
 .hero h2 {
-    color: white;
-    border-top-style:2px solid white;
-    text-transform: none;
-    letter-spacing: normal;
+  color: white;
+  border-top-style: 2px solid white;
+  text-transform: none;
+  letter-spacing: normal;
 }
-.hero {
-    box-shadow: 3px 3px 20px 5px #647087 inset;
+.about-me {
+  background-color: #f7ddc3;
+}
+.about-me {
+  background-color: white;
+}
+article h3,
+article h4 {
+  font-weight: bold;
+}
+article ul {
+  list-style: square;
+}
+
+/*References*/
+.references {
+    display: flex;
+    flex-wrap: wrap;
+}
+.references article {
+    width: 50%;
 }
