@@ -20,12 +20,18 @@ border-bottom: 2px solid white;
     border-radius: 50%;
 }
 /*MAIN*/
+main section > h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
 .hero {
     background-color: #F7DDC3;
 }
 .hero h2 {
     color: white;
     border-top-style:2px solid white;
+    text-transform: none;
+    letter-spacing: normal;
 }
 .hero {
     box-shadow: 3px 3px 20px 5px #647087 inset;
