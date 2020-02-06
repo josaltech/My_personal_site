@@ -1,11 +1,14 @@
 /*LAYOUT*/
 .main-container {
-    display: flex;
-    width: 1200px;
+  display: flex;
+  width: 1200px;
 }
 /*GENERAL*/
 ul {
   list-style: none;
+}
+.clear {
+  clear: both;
 }
 /*ASIDE*/
 aside {
@@ -57,9 +60,28 @@ article ul {
 
 /*References*/
 .references {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .references article {
-    width: 50%;
+  width: 50%;
+}
+
+/*DL*/
+dt {
+  clear: left;
+  width: 30%;
+  float: left;
+  border-top: 1px solid white;
+}
+dd {
+  clear: right;
+  width: 50%;
+  float: left;
+  margin: 0;
+  border: top 1px solid white;
+}
+dt:last-child,
+dd:last-child {
+  border-bottom: 1px solid white;
 }
