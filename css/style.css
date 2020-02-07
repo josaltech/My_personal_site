@@ -45,9 +45,9 @@ main section > h2 {
   letter-spacing: normal;
 }
 .about-me {
-  background-color: #f7ddc3;
+  background-color: #EDC0AF;
 }
-.about-me {
+.about-me h2 {
   background-color: white;
 }
 article h3,
@@ -68,7 +68,13 @@ article ul {
 }
 
 /*DL*/
-dt {
+dt,
+dd {
+  line-height: 1.5em;
+  border-top: 1px solid white;
+}
+/* dt {
+  font-weight: bolder;
   clear: left;
   width: 30%;
   float: left;
@@ -80,8 +86,17 @@ dd {
   float: left;
   margin: 0;
   border: top 1px solid white;
-}
-dt:last-child,
-dd:last-child {
+} */
+dt:last-of-type,
+dd:last-of-type {
   border-bottom: 1px solid white;
+}
+dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+dt,
+dd {
+  flex-basis: 40%;
+  margin: 0;
 }
